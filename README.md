@@ -1,4 +1,4 @@
-# project
+# My Project
 #   Country Flag Recognition
 
 This project uses a trained artificial intelligence model to detect and classify Country Flags.
