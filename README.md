@@ -15,9 +15,23 @@ Here is an image of what the final product should look like produced from the AI
 *   Jetson-inference 
 *   USB Webcam which is optional for real-time inference
 
-# Dataset
+## Algorithm
 
-The datasets sourced from Kaggle is used for training for the project. It has been restructured to be compatible with the classification requirements of `jetson-inference`. 
+## Running this project
+
+here are the following steps and requirments for the project:
+
+# hardware for the Project:
+
+here we have the following hardware to actually run the project:
+*   NVIDIA Jetson Orin Nano
+*   Jetson-inference 
+*   USB Webcam which is optional for real-time inference
+
+
+ # Dataset
+
+Next up is the datasets. The dataset sourced from Kaggle is used for training for the project. It's has been restructured to be compatible with the classification requirements of `jetson-inference`. 
 
 this is the dataset i used for my project: https://www.kaggle.com/datasets/shuvokumarbasak4004/world-flags-dataset-195 
 
@@ -30,14 +44,10 @@ dataset/
 ├── val/         # Validation images
 
 └── test/        # Testing images
-
-## Algorithm
-
-## Running this project
-
-here are the following steps for the project:
  
- First you have to download the Dataset. 
+ # Coding in vs code
+
+ Now onto the real stuff. First you have to download the Dataset. 
 <pre><code>#!/bin/bash
 curl -L -o ~/Downloads/world-flags-dataset-195.zip\
   https://www.kaggle.com/api/v1/datasets/download/shuvokumarbasak4004/world-flags-dataset-195</code></pre>
