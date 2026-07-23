@@ -34,7 +34,7 @@ dataset/
 
 here are the following steps for the project:
  
- first you have to download the Dataset. 
+ First you have to download the Dataset. 
 <pre><code>#!/bin/bash
 curl -L -o ~/Downloads/world-flags-dataset-195.zip\
   https://www.kaggle.com/api/v1/datasets/download/shuvokumarbasak4004/world-flags-dataset-195</code></pre>
@@ -59,7 +59,7 @@ python3 reshape.py</code></pre>
 In your dataset directory create a new file named labels.txt. In labels.txt, put each country in alphabetical order. It won't work unless it is all in alphabetical order.
 
 
-after you have put it all in alphabetical order run the docker container: 
+After you have put it all in alphabetical order run the docker container: 
 
 <pre><code>
 cd ~/jetson-inference/
@@ -73,15 +73,15 @@ cd python/training/classification</code></pre>
 <pre><code>
 python3 train.py --model-dir=models/Your_Model data/dataset</code></pre>
 
-and IF you want to change the training amount change the epoch= with a smaller number for shorter training and a bigger number for longer training
+And IF you want to change the training amount change the epoch= with a smaller number for shorter training and a bigger number for longer training
 <pre><code>
 python3 train.py --epochs=10 --model-dir=models/Your_Model data/dataset</code></pre>
 
-now run the ONNX export script:
+Now run the ONNX export script:
 <pre><code>
 python3 onnx_export.py --model-dir=models/Your_Model</code></pre>
 
-exit the docker container with
+Exit the docker container with
 <pre><code>
 Ctrl + d</code></pre>
 
