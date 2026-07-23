@@ -52,7 +52,7 @@ unzip ~/Downloads/your_dataset.zip -d subfolder_name</code></pre>
 
 And now you will organize the Dataset (test/val/train)
 <pre><code>
-python3 reorganize.py</code></pre>
+python3 reshape.py</code></pre>
 
 
 
