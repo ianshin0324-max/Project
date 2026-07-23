@@ -65,7 +65,7 @@ after you have put it all in alphabetical order run the docker container:
 cd ~/jetson-inference/
 ./docker/run.sh</code></pre>
 
-Navigate into your classification folder with this command:
+Navigate into your classification folder with these two commands:
 
 <pre><code>
 cd python/training/classification</code></pre>
