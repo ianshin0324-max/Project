@@ -113,3 +113,5 @@ And finally run the AI for your newly completed project with
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/dataset/your_image_input output.jpg</code></pre>
 
 With this you'll have a new fully functioning country recognition AI!
+
+Heres my video: https://drive.google.com/file/d/1E5X88neqy73W09wP51lO0p4TihmNeU5Y/view?usp=sharing
