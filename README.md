@@ -45,10 +45,9 @@ cd jetson-inference/python/training/classification/data</code></pre>
 
 You may need to create a subfolder to store the files in depending on if the dataset comes with one or not which in this case it will be required.
 
-
-<pre><code>
 Now you have to unzip the files from your downloads. The -d flag CAN be omitted IF you didn't create a subfolder:
-unzip ~/Downloads/your_dataset.zip -d subfolder_name</code></pre>
+
+<pre><code> unzip ~/Downloads/your_dataset.zip -d subfolder_name</code></pre>
 
 And now you will organize the Dataset (test/val/train)
 <pre><code>
