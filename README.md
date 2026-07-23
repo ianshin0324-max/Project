@@ -5,7 +5,8 @@ This project uses a trained artificial intelligence model to detect and classify
 
 The model was trained using the ImageNet architecture with NVIDIA's Jetson-inference library and is optimized to run efficiently on a Jetson Orin Nano.
 
-#Image 
+# Image 
+Here is an image of what the final product should look like produced from the AI: <img width="782" height="500" alt="Screenshot 2026-07-22 162504" src="https://github.com/user-attachments/assets/fc796155-bc5a-409c-b5e7-c116143a306a" />
 
 
 # hardware for the Project:
