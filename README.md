@@ -79,11 +79,11 @@ and IF you want to change the training amount change the epoch= with a smaller n
 <pre><code>
 python3 train.py --epochs=10 --model-dir=models/Your_Model data/dataset</code></pre>
 
-Run the ONNX export script:
+now run the ONNX export script:
 <pre><code>
 python3 onnx_export.py --model-dir=models/Your_Model</code></pre>
 
-exit the docker container:
+exit the docker container with
 <pre><code>
 Ctrl + d</code></pre>
 
