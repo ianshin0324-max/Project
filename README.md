@@ -22,8 +22,6 @@ The algorithm is full very strong complex build coding that actually helps pytho
 
 [onnx_export.py](https://docs.google.com/document/d/11t_kcadnQTxFRAQLuW_Vp_XNlc-H9e8FWJo7Riqxud4/edit?usp=sharing) is a script is used to convert or "export" a trained deep learning model into the ONNX (Open Neural Network Exchange) format.
 
-
-
 [onnx_validate.py](https://docs.google.com/document/d/1eSsxbtwXIZ1yyRFu_U2SE8QyltLE-3_TXjfwQPXRkDA/edit?usp=sharing) is a script used to verify, test, and benchmark an exported ONNX model to ensure it runs correctly and matches the performance of the original framework model (like PyTorch or TensorFlow) before deployment.
 
 
