@@ -43,9 +43,7 @@ Next you have to change directory.
 <pre><code>
 cd jetson-inference/python/training/classification/data</code></pre>
 
-You may need to create a subfolder to store the files in depending on if the dataset comes with one or not which in this case it will be required.
-
-Now you have to unzip the files from your downloads. The -d flag CAN be omitted IF you didn't create a subfolder:
+Now you have to unzip the files from your downloads. You may need to create a subfolder to store the files in depending on if the dataset comes with one or not which in this case it will be required. The -d flag CAN be omitted IF you don't create a subfolder when the dataset already makes one for you:
 
 <pre><code> unzip ~/Downloads/your_dataset.zip -d subfolder_name</code></pre>
 
