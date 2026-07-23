@@ -61,8 +61,6 @@ In your dataset directory create a new file named labels.txt. In labels.txt, put
 
 after you have put it all in alphabetical order run the docker container: 
 
-
-
 <pre><code>
 cd ~/jetson-inference/
 ./docker/run.sh</code></pre>
