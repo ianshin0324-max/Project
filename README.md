@@ -75,9 +75,7 @@ cd python/training/classification</code></pre>
 <pre><code>
 python3 train.py --model-dir=models/Your_Model data/dataset</code></pre>
 
-and IF you want to make the training shorter or longer change the following:
-<pre><code>epoch</code></pre>
-
+and IF you want to make the training shorter or longer change the following: epoch
 <pre><code>
 python3 train.py --epochs=10 --model-dir=models/Your_Model data/dataset</code></pre>
 
