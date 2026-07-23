@@ -47,7 +47,7 @@ You may need to create a subfolder to store the files in depending on if the dat
 
 
 <pre><code>
-now you have to unzip the files from your downloads. The -d flag CAN be omitted IF you didn't create a subfolder:
+Now you have to unzip the files from your downloads. The -d flag CAN be omitted IF you didn't create a subfolder:
 unzip ~/Downloads/your_dataset.zip -d subfolder_name</code></pre>
 
 And now you will organize the Dataset (test/val/train)
@@ -56,7 +56,7 @@ python3 reshape.py</code></pre>
 
 
 
-In your dataset directory create a new file named labels.txt. In labels.txt, put each country in alphabetical order. It won't work unless it is all in alphabetical order.
+In your dataset directory create a new file named labels.txt. Once your inside labels.txt, put each country in alphabetical order. It won't work unless it is all in alphabetical order.
 
 
 After you have put it all in alphabetical order run the docker container: 
