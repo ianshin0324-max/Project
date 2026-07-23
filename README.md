@@ -14,7 +14,7 @@ Here is an image of what the final product should look like produced from the AI
 The algorithm is full very strong complex build coding that actually helps python and the coding to work.
 
 [train.py](https://docs.google.com/document/d/1r1jNkRI6imb0M9-d9pJxcpGsBdCVZcB3VCT4ukZtNSU/edit?usp=sharing) is very important for training the AI to be able to recognize the variety of country flags. This is the whoel reason the AI is able to match the country flag with the country its from.
-
+[reshape.py](https://docs.google.com/document/d/1ixoCs2YjEqiHwX1uDFOO8WvU2MSL9V-mXjy-0gXA9Pk/edit?usp=sharing)is a script that is typically used to reorganize or transform the structure, dimensions, or layout of data without changing the actual values inside it.
 # Running this project
 
 here are the following steps and requirments for the project:
