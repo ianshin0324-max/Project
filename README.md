@@ -93,6 +93,6 @@ Set the variables
 NET=models/Your_Model
 DATASET=data/dataset</code></pre>
 
-And finally run the AI
+And finally run the AI for your newly completed project!
 <pre><code>
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/dataset/your_image_input output.jpg</code></pre>
