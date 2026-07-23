@@ -28,6 +28,8 @@ dataset/
 
 └── test/        # Testing images
 
+## Algorithm
+
 ## Running this project
 
 Download the Dataset 
