@@ -26,7 +26,7 @@ here we have the following hardware to actually run the project:
 
  ## Dataset
 
-Next up is the datasets. The dataset sourced from Kaggle is used for training for the project. It's has been restructured to be compatible with the classification requirements of `jetson-inference`. 
+Next up we have the dataset. The dataset sourced from Kaggle is used for training for the project. It's has been restructured to be compatible with the classification requirements of `jetson-inference`. 
 
 this is the dataset i used for my project: https://www.kaggle.com/datasets/shuvokumarbasak4004/world-flags-dataset-195 
 
