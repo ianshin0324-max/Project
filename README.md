@@ -18,8 +18,19 @@ The algorithm is full very strong complex build coding that actually helps pytho
 
 [reshape.py](https://docs.google.com/document/d/1ixoCs2YjEqiHwX1uDFOO8WvU2MSL9V-mXjy-0gXA9Pk/edit?usp=sharing) is a script that is typically used to reorganize or transform the structure, dimensions, or layout of data without changing the actual values inside it.
 
-# Running this project
 
+[voc.py](https://docs.google.com/document/d/1uEBq4bOQinJpxnPhVNyyQOaNRQvE6ZcFsqi8NskSH00/edit?usp=sharing) is a script in Python which is most commonly used in computer vision projects to handle the PASCAL VOC (Visual Object Classes) dataset.
+
+
+[onnx_export.py](https://docs.google.com/document/d/11t_kcadnQTxFRAQLuW_Vp_XNlc-H9e8FWJo7Riqxud4/edit?usp=sharing) is a script is used to convert or "export" a trained deep learning model into the ONNX (Open Neural Network Exchange) format.
+
+
+
+
+
+
+
+# Running this project
 here are the following steps and requirments for the project:
 
 ## hardware for the Project:
