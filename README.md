@@ -11,7 +11,9 @@ Here is an image of what the final product should look like produced from the AI
 
 
 # Algorithm
+The algorithm is full very strong complex build coding that actually helps python and the coding to work.
 
+train.py is 
 # Running this project
 
 here are the following steps and requirments for the project:
