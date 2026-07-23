@@ -92,6 +92,8 @@ Set the variables
 NET=models/Your_Model
 DATASET=data/dataset</code></pre>
 
-And finally run the AI for your newly completed project!
+And finally run the AI for your newly completed project with
 <pre><code>
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/dataset/your_image_input output.jpg</code></pre>
+
+With this you'll have a new fully functioning country recognition AI!
