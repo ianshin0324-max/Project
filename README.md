@@ -9,19 +9,14 @@ The model was trained using the ImageNet architecture with NVIDIA's Jetson-infer
 Here is an image of what the final product should look like produced from the AI: <img width="782" height="500" alt="Screenshot 2026-07-22 162504" src="https://github.com/user-attachments/assets/fc796155-bc5a-409c-b5e7-c116143a306a" />
 
 
-# hardware for the Project:
 
-*   NVIDIA Jetson Orin Nano
-*   Jetson-inference 
-*   USB Webcam which is optional for real-time inference
+# Algorithm
 
-## Algorithm
-
-## Running this project
+# Running this project
 
 here are the following steps and requirments for the project:
 
-# hardware for the Project:
+## hardware for the Project:
 
 here we have the following hardware to actually run the project:
 *   NVIDIA Jetson Orin Nano
@@ -29,7 +24,7 @@ here we have the following hardware to actually run the project:
 *   USB Webcam which is optional for real-time inference
 
 
- # Dataset
+ ## Dataset
 
 Next up is the datasets. The dataset sourced from Kaggle is used for training for the project. It's has been restructured to be compatible with the classification requirements of `jetson-inference`. 
 
@@ -45,7 +40,7 @@ dataset/
 
 └── test/        # Testing images
  
- # Coding in vs code
+ ## Coding in vs code
 
  Now onto the real stuff. First you have to download the Dataset. 
 <pre><code>#!/bin/bash
